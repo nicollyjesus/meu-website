@@ -1,0 +1,26 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Bacasime Antique', serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(226, 155, 179);
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+}
+.ul-header{
+  list-style-type: none;
+  display: inline-flex;
+}
+.li-header{
+  margin-left: 2vw;
+}
+.a-header{
+  text-decoration: none;
+  color: #000;
+}

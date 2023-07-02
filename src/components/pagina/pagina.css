@@ -1,0 +1,39 @@
+.main-pagina{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.div-name{
+    font-size: 3rem;
+}
+.p-sobre{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.h1-name2{
+    text-align: right;
+}
+.section-left{
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+}
+.section-right{
+    margin-top: 5vh;
+    display: grid;
+    width: 50vw;
+    grid-template-rows: 80% 30%;
+}
+.div-imgs-menor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw;
+}
